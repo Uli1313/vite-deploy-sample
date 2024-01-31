@@ -4,6 +4,16 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <TheWelcome />
+    <button type="button" class="test-btn btn btn-primary">測試</button>
+    <!-- <TheWelcome /> -->
   </main>
 </template>
+
+<style scoped lang="scss">
+.test-btn {
+  font-size: 20px;
+  // @include media-breakpoint-up(md) {
+  //   font-size: 60px;
+  // }
+}
+</style>
