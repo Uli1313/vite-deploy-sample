@@ -4,7 +4,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <button type="button" class="test-btn btn btn-primary">測試</button>
+    <button type="button" class="test-btn test-btn-italic btn btn-primary">測試</button>
     <!-- <TheWelcome /> -->
   </main>
 </template>
